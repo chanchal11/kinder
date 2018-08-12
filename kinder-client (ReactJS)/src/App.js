@@ -29,7 +29,7 @@ class App extends Component {
   state = {
     profile:{},LoginStatus:false
   }
-   baseURL=`http://localhost:3000`;
+   baseURL= `http://kinderji.herokuapp.com`;     //`http://localhost:3000`;
 
   /* loginCheck(){
     axios.get(`/logincheck`,{baseURL: this.baseURL ,withCredentials: true}).then((res) => {
