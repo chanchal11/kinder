@@ -1,0 +1,27 @@
+{
+  "name": "kinder-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "description": "kinder-server",
+  "author": {
+    "name": "Chanchal"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.0",
+    "cookie-session": "^2.0.0-beta.3",
+    "debug": "^2.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.2.7",
+    "morgan": "^1.7.0",
+    "passport": "^0.4.0",
+    "passport-linkedin": "^1.0.0",
+    "passport-linkedin-oauth2": "^1.5.0",
+    "serve-favicon": "^2.3.0"
+  }
+}
