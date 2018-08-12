@@ -16,13 +16,13 @@ class App extends Component {
     axios.get(`/profile`,{baseURL: this.baseURL ,withCredentials: true}).then((res) => {
       console.log("From ComponentMount- ");
       console.log(res.data);
-      if(res.data.status)
-      {
+      //if(res.data.status)
+      //{
         this.setState({LoginStatus : true, profile: res.data})
-      }
+      /*}
       else{
         this.setState({LoginStatus : false})
-      }
+      }*/
     })
   }
 
