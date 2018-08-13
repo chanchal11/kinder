@@ -52,7 +52,7 @@ passport.use(
                 new User({
                     name: profile._json.formattedName,
                     firstName: profile._json.firstName,
-                    lastName: profile._json.LastName,
+                    lastName: profile._json.lastName,
                   lid: profile._json.id ,
                   thumbnail: profile._json.pictureUrl,
                   location: profile._json.location.name ,
